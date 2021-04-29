@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\CMakeFiles\7632c5b4d4936c49c838a57b77653b1f\points_vert.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\CMakeFiles\7632c5b4d4936c49c838a57b77653b1f\points_geom.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\CMakeFiles\7632c5b4d4936c49c838a57b77653b1f\points_frag.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\CMakeFiles\7632c5b4d4936c49c838a57b77653b1f\lines_geom.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\CMakeFiles\7632c5b4d4936c49c838a57b77653b1f\lines_frag.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\CMakeFiles\7632c5b4d4936c49c838a57b77653b1f\curve_geom.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\CMakeFiles\7632c5b4d4936c49c838a57b77653b1f\triangles_geom.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\CMakeFiles\7632c5b4d4936c49c838a57b77653b1f\triangles_frag.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\CMakeFiles\7632c5b4d4936c49c838a57b77653b1f\text_vert.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\CMakeFiles\7632c5b4d4936c49c838a57b77653b1f\text_frag.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\CMakeFiles\7632c5b4d4936c49c838a57b77653b1f\default_vert.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\CMakeFiles\7632c5b4d4936c49c838a57b77653b1f\default_frag.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\CMakeFiles\d10e6a916d73be763b1ea6e772f1b65d\shaderIncludes.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\CMakeFiles\shaderIncludes" />
+    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\points_vert.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\points_geom.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\points_frag.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\lines_geom.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\lines_frag.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\curve_geom.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\triangles_geom.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\triangles_frag.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\text_vert.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\text_frag.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\default_vert.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\default_frag.h">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B0492C47-5851-3659-B0C9-139AAC56CFC9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7E89775C-E4E8-3386-8673-ABD230DA1890}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,3 @@
+﻿  motor.c
+D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\src\glfem.h(29,55): warning C4305: 'initialisation' : troncation de 'double' à 'float'
+  myFem.vcxproj -> D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\Debug\myFem.exe
