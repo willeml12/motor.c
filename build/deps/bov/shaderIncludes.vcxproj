@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{C1C7F77F-A0BC-33D9-B3AF-086B11D2726E}</ProjectGuid>
+    <ProjectGuid>{979FA30F-1381-30E5-AC57-20E980510B76}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -105,10 +105,10 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\CMakeFiles\7632c5b4d4936c49c838a57b77653b1f\points_vert.h.rule">
+    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\CMakeFiles\45940c7a429d21fdbf90f254556736cd\points_vert.h.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">generating build/deps/bov/shaderIncludes/points_vert.h from shader deps/bov/shaders/points_vert.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/points_vert.glsl" -DVAR=points_vert "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/points_vert.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/points_vert.glsl" -DVAR=points_vert "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/points_vert.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -116,12 +116,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\points_vert.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\points_vert.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\points_vert.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\points_vert.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">generating build/deps/bov/shaderIncludes/points_vert.h from shader deps/bov/shaders/points_vert.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/points_vert.glsl" -DVAR=points_vert "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/points_vert.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/points_vert.glsl" -DVAR=points_vert "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/points_vert.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -129,12 +129,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\points_vert.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\points_vert.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\points_vert.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\points_vert.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">generating build/deps/bov/shaderIncludes/points_vert.h from shader deps/bov/shaders/points_vert.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/points_vert.glsl" -DVAR=points_vert "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/points_vert.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/points_vert.glsl" -DVAR=points_vert "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/points_vert.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -142,12 +142,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\points_vert.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\points_vert.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\points_vert.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\points_vert.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">generating build/deps/bov/shaderIncludes/points_vert.h from shader deps/bov/shaders/points_vert.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/points_vert.glsl" -DVAR=points_vert "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/points_vert.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/points_vert.glsl" -DVAR=points_vert "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/points_vert.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -155,16 +155,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\points_vert.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\points_vert.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\points_vert.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\points_vert.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\CMakeFiles\7632c5b4d4936c49c838a57b77653b1f\points_geom.h.rule">
+    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\CMakeFiles\45940c7a429d21fdbf90f254556736cd\points_geom.h.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">generating build/deps/bov/shaderIncludes/points_geom.h from shader deps/bov/shaders/points_geom.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/points_geom.glsl" -DVAR=points_geom "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/points_geom.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/points_geom.glsl" -DVAR=points_geom "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/points_geom.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -172,12 +172,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\points_geom.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\points_geom.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\points_geom.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\points_geom.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">generating build/deps/bov/shaderIncludes/points_geom.h from shader deps/bov/shaders/points_geom.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/points_geom.glsl" -DVAR=points_geom "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/points_geom.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/points_geom.glsl" -DVAR=points_geom "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/points_geom.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -185,12 +185,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\points_geom.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\points_geom.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\points_geom.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\points_geom.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">generating build/deps/bov/shaderIncludes/points_geom.h from shader deps/bov/shaders/points_geom.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/points_geom.glsl" -DVAR=points_geom "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/points_geom.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/points_geom.glsl" -DVAR=points_geom "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/points_geom.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -198,12 +198,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\points_geom.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\points_geom.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\points_geom.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\points_geom.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">generating build/deps/bov/shaderIncludes/points_geom.h from shader deps/bov/shaders/points_geom.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/points_geom.glsl" -DVAR=points_geom "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/points_geom.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/points_geom.glsl" -DVAR=points_geom "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/points_geom.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -211,16 +211,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\points_geom.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\points_geom.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\points_geom.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\points_geom.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\CMakeFiles\7632c5b4d4936c49c838a57b77653b1f\points_frag.h.rule">
+    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\CMakeFiles\45940c7a429d21fdbf90f254556736cd\points_frag.h.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">generating build/deps/bov/shaderIncludes/points_frag.h from shader deps/bov/shaders/points_frag.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/points_frag.glsl" -DVAR=points_frag "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/points_frag.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/points_frag.glsl" -DVAR=points_frag "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/points_frag.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -228,12 +228,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\points_frag.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\points_frag.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\points_frag.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\points_frag.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">generating build/deps/bov/shaderIncludes/points_frag.h from shader deps/bov/shaders/points_frag.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/points_frag.glsl" -DVAR=points_frag "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/points_frag.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/points_frag.glsl" -DVAR=points_frag "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/points_frag.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -241,12 +241,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\points_frag.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\points_frag.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\points_frag.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\points_frag.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">generating build/deps/bov/shaderIncludes/points_frag.h from shader deps/bov/shaders/points_frag.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/points_frag.glsl" -DVAR=points_frag "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/points_frag.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/points_frag.glsl" -DVAR=points_frag "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/points_frag.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -254,12 +254,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\points_frag.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\points_frag.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\points_frag.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\points_frag.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">generating build/deps/bov/shaderIncludes/points_frag.h from shader deps/bov/shaders/points_frag.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/points_frag.glsl" -DVAR=points_frag "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/points_frag.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/points_frag.glsl" -DVAR=points_frag "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/points_frag.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -267,16 +267,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\points_frag.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\points_frag.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\points_frag.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\points_frag.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\CMakeFiles\7632c5b4d4936c49c838a57b77653b1f\lines_geom.h.rule">
+    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\CMakeFiles\45940c7a429d21fdbf90f254556736cd\lines_geom.h.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">generating build/deps/bov/shaderIncludes/lines_geom.h from shader deps/bov/shaders/lines_geom.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/lines_geom.glsl" -DVAR=lines_geom "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/lines_geom.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/lines_geom.glsl" -DVAR=lines_geom "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/lines_geom.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -284,12 +284,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\lines_geom.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\lines_geom.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\lines_geom.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\lines_geom.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">generating build/deps/bov/shaderIncludes/lines_geom.h from shader deps/bov/shaders/lines_geom.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/lines_geom.glsl" -DVAR=lines_geom "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/lines_geom.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/lines_geom.glsl" -DVAR=lines_geom "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/lines_geom.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -297,12 +297,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\lines_geom.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\lines_geom.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\lines_geom.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\lines_geom.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">generating build/deps/bov/shaderIncludes/lines_geom.h from shader deps/bov/shaders/lines_geom.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/lines_geom.glsl" -DVAR=lines_geom "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/lines_geom.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/lines_geom.glsl" -DVAR=lines_geom "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/lines_geom.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -310,12 +310,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\lines_geom.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\lines_geom.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\lines_geom.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\lines_geom.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">generating build/deps/bov/shaderIncludes/lines_geom.h from shader deps/bov/shaders/lines_geom.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/lines_geom.glsl" -DVAR=lines_geom "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/lines_geom.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/lines_geom.glsl" -DVAR=lines_geom "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/lines_geom.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -323,16 +323,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\lines_geom.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\lines_geom.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\lines_geom.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\lines_geom.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\CMakeFiles\7632c5b4d4936c49c838a57b77653b1f\lines_frag.h.rule">
+    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\CMakeFiles\45940c7a429d21fdbf90f254556736cd\lines_frag.h.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">generating build/deps/bov/shaderIncludes/lines_frag.h from shader deps/bov/shaders/lines_frag.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/lines_frag.glsl" -DVAR=lines_frag "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/lines_frag.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/lines_frag.glsl" -DVAR=lines_frag "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/lines_frag.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -340,12 +340,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\lines_frag.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\lines_frag.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\lines_frag.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\lines_frag.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">generating build/deps/bov/shaderIncludes/lines_frag.h from shader deps/bov/shaders/lines_frag.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/lines_frag.glsl" -DVAR=lines_frag "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/lines_frag.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/lines_frag.glsl" -DVAR=lines_frag "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/lines_frag.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -353,12 +353,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\lines_frag.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\lines_frag.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\lines_frag.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\lines_frag.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">generating build/deps/bov/shaderIncludes/lines_frag.h from shader deps/bov/shaders/lines_frag.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/lines_frag.glsl" -DVAR=lines_frag "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/lines_frag.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/lines_frag.glsl" -DVAR=lines_frag "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/lines_frag.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -366,12 +366,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\lines_frag.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\lines_frag.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\lines_frag.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\lines_frag.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">generating build/deps/bov/shaderIncludes/lines_frag.h from shader deps/bov/shaders/lines_frag.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/lines_frag.glsl" -DVAR=lines_frag "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/lines_frag.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/lines_frag.glsl" -DVAR=lines_frag "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/lines_frag.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -379,16 +379,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\lines_frag.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\lines_frag.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\lines_frag.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\lines_frag.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\CMakeFiles\7632c5b4d4936c49c838a57b77653b1f\curve_geom.h.rule">
+    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\CMakeFiles\45940c7a429d21fdbf90f254556736cd\curve_geom.h.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">generating build/deps/bov/shaderIncludes/curve_geom.h from shader deps/bov/shaders/curve_geom.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/curve_geom.glsl" -DVAR=curve_geom "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/curve_geom.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/curve_geom.glsl" -DVAR=curve_geom "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/curve_geom.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -396,12 +396,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\curve_geom.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\curve_geom.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\curve_geom.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\curve_geom.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">generating build/deps/bov/shaderIncludes/curve_geom.h from shader deps/bov/shaders/curve_geom.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/curve_geom.glsl" -DVAR=curve_geom "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/curve_geom.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/curve_geom.glsl" -DVAR=curve_geom "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/curve_geom.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -409,12 +409,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\curve_geom.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\curve_geom.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\curve_geom.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\curve_geom.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">generating build/deps/bov/shaderIncludes/curve_geom.h from shader deps/bov/shaders/curve_geom.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/curve_geom.glsl" -DVAR=curve_geom "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/curve_geom.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/curve_geom.glsl" -DVAR=curve_geom "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/curve_geom.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -422,12 +422,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\curve_geom.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\curve_geom.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\curve_geom.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\curve_geom.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">generating build/deps/bov/shaderIncludes/curve_geom.h from shader deps/bov/shaders/curve_geom.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/curve_geom.glsl" -DVAR=curve_geom "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/curve_geom.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/curve_geom.glsl" -DVAR=curve_geom "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/curve_geom.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -435,16 +435,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\curve_geom.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\curve_geom.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\curve_geom.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\curve_geom.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\CMakeFiles\7632c5b4d4936c49c838a57b77653b1f\triangles_geom.h.rule">
+    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\CMakeFiles\45940c7a429d21fdbf90f254556736cd\triangles_geom.h.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">generating build/deps/bov/shaderIncludes/triangles_geom.h from shader deps/bov/shaders/triangles_geom.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/triangles_geom.glsl" -DVAR=triangles_geom "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/triangles_geom.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/triangles_geom.glsl" -DVAR=triangles_geom "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/triangles_geom.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -452,12 +452,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\triangles_geom.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\triangles_geom.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\triangles_geom.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\triangles_geom.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">generating build/deps/bov/shaderIncludes/triangles_geom.h from shader deps/bov/shaders/triangles_geom.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/triangles_geom.glsl" -DVAR=triangles_geom "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/triangles_geom.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/triangles_geom.glsl" -DVAR=triangles_geom "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/triangles_geom.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -465,12 +465,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\triangles_geom.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\triangles_geom.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\triangles_geom.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\triangles_geom.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">generating build/deps/bov/shaderIncludes/triangles_geom.h from shader deps/bov/shaders/triangles_geom.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/triangles_geom.glsl" -DVAR=triangles_geom "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/triangles_geom.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/triangles_geom.glsl" -DVAR=triangles_geom "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/triangles_geom.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -478,12 +478,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\triangles_geom.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\triangles_geom.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\triangles_geom.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\triangles_geom.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">generating build/deps/bov/shaderIncludes/triangles_geom.h from shader deps/bov/shaders/triangles_geom.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/triangles_geom.glsl" -DVAR=triangles_geom "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/triangles_geom.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/triangles_geom.glsl" -DVAR=triangles_geom "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/triangles_geom.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -491,16 +491,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\triangles_geom.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\triangles_geom.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\triangles_geom.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\triangles_geom.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\CMakeFiles\7632c5b4d4936c49c838a57b77653b1f\triangles_frag.h.rule">
+    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\CMakeFiles\45940c7a429d21fdbf90f254556736cd\triangles_frag.h.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">generating build/deps/bov/shaderIncludes/triangles_frag.h from shader deps/bov/shaders/triangles_frag.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/triangles_frag.glsl" -DVAR=triangles_frag "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/triangles_frag.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/triangles_frag.glsl" -DVAR=triangles_frag "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/triangles_frag.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -508,12 +508,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\triangles_frag.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\triangles_frag.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\triangles_frag.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\triangles_frag.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">generating build/deps/bov/shaderIncludes/triangles_frag.h from shader deps/bov/shaders/triangles_frag.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/triangles_frag.glsl" -DVAR=triangles_frag "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/triangles_frag.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/triangles_frag.glsl" -DVAR=triangles_frag "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/triangles_frag.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -521,12 +521,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\triangles_frag.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\triangles_frag.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\triangles_frag.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\triangles_frag.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">generating build/deps/bov/shaderIncludes/triangles_frag.h from shader deps/bov/shaders/triangles_frag.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/triangles_frag.glsl" -DVAR=triangles_frag "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/triangles_frag.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/triangles_frag.glsl" -DVAR=triangles_frag "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/triangles_frag.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -534,12 +534,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\triangles_frag.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\triangles_frag.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\triangles_frag.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\triangles_frag.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">generating build/deps/bov/shaderIncludes/triangles_frag.h from shader deps/bov/shaders/triangles_frag.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/triangles_frag.glsl" -DVAR=triangles_frag "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/triangles_frag.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/triangles_frag.glsl" -DVAR=triangles_frag "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/triangles_frag.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -547,16 +547,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\triangles_frag.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\triangles_frag.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\triangles_frag.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\triangles_frag.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\CMakeFiles\7632c5b4d4936c49c838a57b77653b1f\text_vert.h.rule">
+    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\CMakeFiles\45940c7a429d21fdbf90f254556736cd\text_vert.h.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">generating build/deps/bov/shaderIncludes/text_vert.h from shader deps/bov/shaders/text_vert.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/text_vert.glsl" -DVAR=text_vert "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/text_vert.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/text_vert.glsl" -DVAR=text_vert "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/text_vert.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -564,12 +564,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\text_vert.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\text_vert.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\text_vert.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\text_vert.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">generating build/deps/bov/shaderIncludes/text_vert.h from shader deps/bov/shaders/text_vert.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/text_vert.glsl" -DVAR=text_vert "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/text_vert.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/text_vert.glsl" -DVAR=text_vert "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/text_vert.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -577,12 +577,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\text_vert.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\text_vert.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\text_vert.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\text_vert.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">generating build/deps/bov/shaderIncludes/text_vert.h from shader deps/bov/shaders/text_vert.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/text_vert.glsl" -DVAR=text_vert "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/text_vert.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/text_vert.glsl" -DVAR=text_vert "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/text_vert.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -590,12 +590,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\text_vert.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\text_vert.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\text_vert.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\text_vert.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">generating build/deps/bov/shaderIncludes/text_vert.h from shader deps/bov/shaders/text_vert.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/text_vert.glsl" -DVAR=text_vert "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/text_vert.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/text_vert.glsl" -DVAR=text_vert "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/text_vert.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -603,16 +603,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\text_vert.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\text_vert.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\text_vert.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\text_vert.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\CMakeFiles\7632c5b4d4936c49c838a57b77653b1f\text_frag.h.rule">
+    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\CMakeFiles\45940c7a429d21fdbf90f254556736cd\text_frag.h.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">generating build/deps/bov/shaderIncludes/text_frag.h from shader deps/bov/shaders/text_frag.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/text_frag.glsl" -DVAR=text_frag "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/text_frag.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/text_frag.glsl" -DVAR=text_frag "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/text_frag.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -620,12 +620,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\text_frag.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\text_frag.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\text_frag.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\text_frag.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">generating build/deps/bov/shaderIncludes/text_frag.h from shader deps/bov/shaders/text_frag.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/text_frag.glsl" -DVAR=text_frag "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/text_frag.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/text_frag.glsl" -DVAR=text_frag "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/text_frag.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -633,12 +633,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\text_frag.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\text_frag.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\text_frag.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\text_frag.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">generating build/deps/bov/shaderIncludes/text_frag.h from shader deps/bov/shaders/text_frag.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/text_frag.glsl" -DVAR=text_frag "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/text_frag.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/text_frag.glsl" -DVAR=text_frag "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/text_frag.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -646,12 +646,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\text_frag.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\text_frag.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\text_frag.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\text_frag.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">generating build/deps/bov/shaderIncludes/text_frag.h from shader deps/bov/shaders/text_frag.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/text_frag.glsl" -DVAR=text_frag "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/text_frag.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/text_frag.glsl" -DVAR=text_frag "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/text_frag.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -659,16 +659,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\text_frag.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\text_frag.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\text_frag.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\text_frag.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\CMakeFiles\7632c5b4d4936c49c838a57b77653b1f\default_vert.h.rule">
+    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\CMakeFiles\45940c7a429d21fdbf90f254556736cd\default_vert.h.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">generating build/deps/bov/shaderIncludes/default_vert.h from shader deps/bov/shaders/default_vert.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/default_vert.glsl" -DVAR=default_vert "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/default_vert.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/default_vert.glsl" -DVAR=default_vert "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/default_vert.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -676,12 +676,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\default_vert.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\default_vert.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\default_vert.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\default_vert.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">generating build/deps/bov/shaderIncludes/default_vert.h from shader deps/bov/shaders/default_vert.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/default_vert.glsl" -DVAR=default_vert "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/default_vert.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/default_vert.glsl" -DVAR=default_vert "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/default_vert.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -689,12 +689,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\default_vert.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\default_vert.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\default_vert.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\default_vert.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">generating build/deps/bov/shaderIncludes/default_vert.h from shader deps/bov/shaders/default_vert.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/default_vert.glsl" -DVAR=default_vert "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/default_vert.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/default_vert.glsl" -DVAR=default_vert "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/default_vert.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -702,12 +702,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\default_vert.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\default_vert.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\default_vert.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\default_vert.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">generating build/deps/bov/shaderIncludes/default_vert.h from shader deps/bov/shaders/default_vert.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/default_vert.glsl" -DVAR=default_vert "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/default_vert.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/default_vert.glsl" -DVAR=default_vert "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/default_vert.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -715,16 +715,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\default_vert.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\default_vert.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\default_vert.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\default_vert.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\CMakeFiles\7632c5b4d4936c49c838a57b77653b1f\default_frag.h.rule">
+    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\CMakeFiles\45940c7a429d21fdbf90f254556736cd\default_frag.h.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">generating build/deps/bov/shaderIncludes/default_frag.h from shader deps/bov/shaders/default_frag.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/default_frag.glsl" -DVAR=default_frag "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/default_frag.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/default_frag.glsl" -DVAR=default_frag "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/default_frag.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -732,12 +732,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\default_frag.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\default_frag.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\default_frag.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\default_frag.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">generating build/deps/bov/shaderIncludes/default_frag.h from shader deps/bov/shaders/default_frag.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/default_frag.glsl" -DVAR=default_frag "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/default_frag.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/default_frag.glsl" -DVAR=default_frag "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/default_frag.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -745,12 +745,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\default_frag.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\default_frag.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\default_frag.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\default_frag.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">generating build/deps/bov/shaderIncludes/default_frag.h from shader deps/bov/shaders/default_frag.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/default_frag.glsl" -DVAR=default_frag "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/default_frag.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/default_frag.glsl" -DVAR=default_frag "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/default_frag.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -758,12 +758,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\default_frag.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\default_frag.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\default_frag.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\default_frag.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">generating build/deps/bov/shaderIncludes/default_frag.h from shader deps/bov/shaders/default_frag.glsl</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/default_frag.glsl" -DVAR=default_frag "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/shaderIncludes/default_frag.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/shaders/shaderToString.cmake"
+cmake "-DIN=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/default_frag.glsl" -DVAR=default_frag "-DOUT=D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/shaderIncludes/default_frag.h" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/shaders/shaderToString.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -771,13 +771,13 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\shaders\default_frag.glsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\default_frag.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\shaders\default_frag.glsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\default_frag.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\CMakeFiles\d10e6a916d73be763b1ea6e772f1b65d\shaderIncludes.rule">
+    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\CMakeFiles\a6a6977979309416ec7a2d486106a183\shaderIncludes.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 :cmEnd
@@ -786,8 +786,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\points_vert.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\points_geom.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\points_frag.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\lines_geom.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\lines_frag.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\curve_geom.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\triangles_geom.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\triangles_frag.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\text_vert.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\text_frag.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\default_vert.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\default_frag.h;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\CMakeFiles\shaderIncludes</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\points_vert.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\points_geom.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\points_frag.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\lines_geom.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\lines_frag.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\curve_geom.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\triangles_geom.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\triangles_frag.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\text_vert.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\text_frag.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\default_vert.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\default_frag.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\CMakeFiles\shaderIncludes</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
@@ -798,8 +798,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\points_vert.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\points_geom.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\points_frag.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\lines_geom.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\lines_frag.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\curve_geom.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\triangles_geom.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\triangles_frag.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\text_vert.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\text_frag.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\default_vert.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\default_frag.h;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\CMakeFiles\shaderIncludes</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\points_vert.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\points_geom.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\points_frag.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\lines_geom.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\lines_frag.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\curve_geom.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\triangles_geom.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\triangles_frag.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\text_vert.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\text_frag.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\default_vert.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\default_frag.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\CMakeFiles\shaderIncludes</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
@@ -810,8 +810,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\points_vert.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\points_geom.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\points_frag.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\lines_geom.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\lines_frag.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\curve_geom.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\triangles_geom.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\triangles_frag.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\text_vert.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\text_frag.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\default_vert.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\default_frag.h;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\CMakeFiles\shaderIncludes</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\points_vert.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\points_geom.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\points_frag.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\lines_geom.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\lines_frag.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\curve_geom.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\triangles_geom.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\triangles_frag.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\text_vert.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\text_frag.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\default_vert.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\default_frag.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\CMakeFiles\shaderIncludes</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
@@ -822,17 +822,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\points_vert.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\points_geom.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\points_frag.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\lines_geom.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\lines_frag.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\curve_geom.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\triangles_geom.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\triangles_frag.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\text_vert.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\text_frag.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\default_vert.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\default_frag.h;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\CMakeFiles\shaderIncludes</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\points_vert.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\points_geom.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\points_frag.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\lines_geom.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\lines_frag.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\curve_geom.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\triangles_geom.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\triangles_frag.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\text_vert.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\text_frag.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\default_vert.h;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\default_frag.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\CMakeFiles\shaderIncludes</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/CMakeLists.txt</Message>
+    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet" "-BD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build" --check-stamp-file "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c" "-BD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build" --check-stamp-file "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -841,11 +841,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet" "-BD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build" --check-stamp-file "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c" "-BD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build" --check-stamp-file "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -854,11 +854,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet" "-BD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build" --check-stamp-file "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c" "-BD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build" --check-stamp-file "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -867,11 +867,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet" "-BD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build" --check-stamp-file "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c" "-BD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build" --check-stamp-file "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -880,28 +880,28 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\CMakeFiles\shaderIncludes" />
-    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\points_vert.h" />
-    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\points_geom.h" />
-    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\points_frag.h" />
-    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\lines_geom.h" />
-    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\lines_frag.h" />
-    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\curve_geom.h" />
-    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\triangles_geom.h" />
-    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\triangles_frag.h" />
-    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\text_vert.h" />
-    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\text_frag.h" />
-    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\default_vert.h" />
-    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\shaderIncludes\default_frag.h" />
+    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\CMakeFiles\shaderIncludes" />
+    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\points_vert.h" />
+    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\points_geom.h" />
+    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\points_frag.h" />
+    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\lines_geom.h" />
+    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\lines_frag.h" />
+    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\curve_geom.h" />
+    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\triangles_geom.h" />
+    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\triangles_frag.h" />
+    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\text_vert.h" />
+    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\text_frag.h" />
+    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\default_vert.h" />
+    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\shaderIncludes\default_frag.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\ZERO_CHECK.vcxproj">
-      <Project>{9E93ACB0-99FC-31A6-BF77-D9F0F5AECC44}</Project>
+    <ProjectReference Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\ZERO_CHECK.vcxproj">
+      <Project>{A17AD59A-245F-31ED-A56B-9B95286BF50A}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

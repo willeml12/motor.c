@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\x64\Debug\shaderIncludes</FullPath>
+      <FullPath>D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\x64\Debug\shaderIncludes</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

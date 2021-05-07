@@ -1,4 +1,4 @@
-# Install script for directory: D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/deps/glad
+# Install script for directory: D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/deps/glad
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

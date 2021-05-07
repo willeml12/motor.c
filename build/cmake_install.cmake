@@ -1,4 +1,4 @@
-# Install script for directory: D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet
+# Install script for directory: D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/cmake_install.cmake")
+  include("D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

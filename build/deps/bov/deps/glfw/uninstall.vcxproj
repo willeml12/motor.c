@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{71DDDC3A-F30F-3BFC-8181-91A214278A05}</ProjectGuid>
+    <ProjectGuid>{B0641706-D607-3DEF-992E-7DCC0D1E2C1D}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -105,10 +105,10 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\CMakeFiles\d64020e81eed1e0f17a46c56ad9e8a14\uninstall.rule">
+    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\CMakeFiles\4251fc334a25d55e1496f84ba84ec154\uninstall.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/deps/glfw/cmake_uninstall.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/deps/glfw/cmake_uninstall.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -117,12 +117,12 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\deps\glfw\CMakeFiles\uninstall</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\deps\glfw\CMakeFiles\uninstall</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/deps/glfw/cmake_uninstall.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/deps/glfw/cmake_uninstall.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -131,12 +131,12 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\deps\glfw\CMakeFiles\uninstall</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\deps\glfw\CMakeFiles\uninstall</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/deps/glfw/cmake_uninstall.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/deps/glfw/cmake_uninstall.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -145,12 +145,12 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\deps\glfw\CMakeFiles\uninstall</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\deps\glfw\CMakeFiles\uninstall</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/deps/glfw/cmake_uninstall.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -P "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/deps/glfw/cmake_uninstall.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -159,16 +159,16 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\deps\glfw\CMakeFiles\uninstall</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\deps\glfw\CMakeFiles\uninstall</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/deps/glfw/CMakeLists.txt</Message>
+    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/deps/glfw/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet" "-BD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build" --check-stamp-file "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/deps/glfw/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c" "-BD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build" --check-stamp-file "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/deps/glfw/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -176,12 +176,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\WriteBasicConfigVersionFile.cmake;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\cmake_uninstall.cmake.in;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src\glfw3.pc.in;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src\glfw3Config.cmake.in;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\deps\glfw\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\WriteBasicConfigVersionFile.cmake;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\cmake_uninstall.cmake.in;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src\glfw3.pc.in;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src\glfw3Config.cmake.in;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\deps\glfw\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/deps/glfw/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/deps/glfw/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet" "-BD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build" --check-stamp-file "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/deps/glfw/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c" "-BD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build" --check-stamp-file "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/deps/glfw/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -189,12 +189,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\WriteBasicConfigVersionFile.cmake;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\cmake_uninstall.cmake.in;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src\glfw3.pc.in;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src\glfw3Config.cmake.in;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\deps\glfw\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\WriteBasicConfigVersionFile.cmake;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\cmake_uninstall.cmake.in;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src\glfw3.pc.in;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src\glfw3Config.cmake.in;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\deps\glfw\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/deps/glfw/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/deps/glfw/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet" "-BD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build" --check-stamp-file "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/deps/glfw/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c" "-BD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build" --check-stamp-file "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/deps/glfw/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -202,12 +202,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\WriteBasicConfigVersionFile.cmake;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\cmake_uninstall.cmake.in;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src\glfw3.pc.in;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src\glfw3Config.cmake.in;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\deps\glfw\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\WriteBasicConfigVersionFile.cmake;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\cmake_uninstall.cmake.in;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src\glfw3.pc.in;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src\glfw3Config.cmake.in;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\deps\glfw\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/deps/glfw/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/deps/glfw/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet" "-BD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build" --check-stamp-file "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/deps/glfw/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c" "-BD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build" --check-stamp-file "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/deps/glfw/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -215,17 +215,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\WriteBasicConfigVersionFile.cmake;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\cmake_uninstall.cmake.in;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src\glfw3.pc.in;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src\glfw3Config.cmake.in;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\deps\glfw\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\WriteBasicConfigVersionFile.cmake;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\cmake_uninstall.cmake.in;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src\glfw3.pc.in;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src\glfw3Config.cmake.in;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\deps\glfw\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\deps\glfw\CMakeFiles\uninstall" />
+    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\deps\glfw\CMakeFiles\uninstall" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\ZERO_CHECK.vcxproj">
-      <Project>{9E93ACB0-99FC-31A6-BF77-D9F0F5AECC44}</Project>
+    <ProjectReference Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\ZERO_CHECK.vcxproj">
+      <Project>{A17AD59A-245F-31ED-A56B-9B95286BF50A}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

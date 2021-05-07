@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{91ACDA7D-D895-32FA-9AC4-939DE79A44DD}</ProjectGuid>
+    <ProjectGuid>{7E0790F0-384F-39A2-B0EF-9D041F05C300}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -105,10 +105,10 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/CMakeLists.txt</Message>
+    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet" "-BD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build" --check-stamp-file "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c" "-BD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build" --check-stamp-file "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -117,11 +117,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet" "-BD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build" --check-stamp-file "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c" "-BD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build" --check-stamp-file "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -130,11 +130,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet" "-BD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build" --check-stamp-file "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c" "-BD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build" --check-stamp-file "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -143,11 +143,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet" "-BD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build" --check-stamp-file "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c" "-BD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build" --check-stamp-file "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -156,29 +156,29 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\ZERO_CHECK.vcxproj">
-      <Project>{9E93ACB0-99FC-31A6-BF77-D9F0F5AECC44}</Project>
+    <ProjectReference Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\ZERO_CHECK.vcxproj">
+      <Project>{A17AD59A-245F-31ED-A56B-9B95286BF50A}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\bov.vcxproj">
-      <Project>{9F1C49B2-C450-3081-BD02-FA7B09186E2D}</Project>
+    <ProjectReference Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\bov.vcxproj">
+      <Project>{A8DE6116-BEC7-3A63-B764-E86178EA7DD0}</Project>
       <Name>bov</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\deps\glad\glad.vcxproj">
-      <Project>{16A62477-4C2A-3B0E-84D6-1E1B1B2F6B9C}</Project>
+    <ProjectReference Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\deps\glad\glad.vcxproj">
+      <Project>{0460065A-F2D5-3BDF-9642-298F2C741B44}</Project>
       <Name>glad</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\deps\glfw\src\glfw.vcxproj">
-      <Project>{0F5FB8B3-7B90-3B38-820E-282E00817D55}</Project>
+    <ProjectReference Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\deps\glfw\src\glfw.vcxproj">
+      <Project>{F4946203-0438-375A-8062-036ED1C7BC0A}</Project>
       <Name>glfw</Name>
     </ProjectReference>
   </ItemGroup>

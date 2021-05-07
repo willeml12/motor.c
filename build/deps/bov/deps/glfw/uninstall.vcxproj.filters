@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\CMakeFiles\d64020e81eed1e0f17a46c56ad9e8a14\uninstall.rule">
+    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\CMakeFiles\4251fc334a25d55e1496f84ba84ec154\uninstall.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\CMakeLists.txt" />
+    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\deps\glfw\CMakeFiles\uninstall" />
+    <None Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\deps\glfw\CMakeFiles\uninstall" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{B0492C47-5851-3659-B0C9-139AAC56CFC9}</UniqueIdentifier>
+      <UniqueIdentifier>{2BE6922C-25EC-3BC4-85F0-281173BCA5CD}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

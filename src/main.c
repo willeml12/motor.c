@@ -47,7 +47,7 @@ int main(void)
     double 	theDiscreteTime = 0.0;
     double 	theStartingTime = 0.0;
     double  theTimeStep  = 0.1;
-    double  theStop = 0;
+    double  theStop = 0.1;
     double  omega = 1.0;
     int     thePlotMode = 1;
     int 	  theIteration = 0;
@@ -204,7 +204,8 @@ motor *motorCreate(motorMesh *theMesh)
     theMotor->a = malloc(sizeof(double)*theMotor->size);
     for (int i=0; i < theMotor->size; i++) {
         theMotor->a[i] = theMesh->X[i];
-        printf(" %e \n",theMotor->a[i]); }
+        //printf(" %e \n",theMotor->a[i]); 
+    }
         
     theMotor->theta = 0;
     theMotor->omega = 0;

@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/deps/glfw/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: \"D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/deps/glfw/install_manifest.txt\"")
+if (NOT EXISTS "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/deps/glfw/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: \"D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/deps/glfw/install_manifest.txt\"")
 endif()
 
-file(READ "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/deps/glfw/install_manifest.txt" files)
+file(READ "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/deps/glfw/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

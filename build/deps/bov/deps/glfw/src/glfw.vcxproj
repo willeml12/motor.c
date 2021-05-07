@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{0F5FB8B3-7B90-3B38-820E-282E00817D55}</ProjectGuid>
+    <ProjectGuid>{F4946203-0438-375A-8062-036ED1C7BC0A}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -59,26 +59,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\deps\glfw\src\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\deps\glfw\src\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">glfw.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">glfw3</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\deps\glfw\src\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\deps\glfw\src\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">glfw.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">glfw3</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\deps\glfw\src\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\deps\glfw\src\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">glfw.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">glfw3</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\deps\glfw\src\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\deps\glfw\src\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">glfw.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">glfw3</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\include;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\deps\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\include;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\deps\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsC</CompileAs>
@@ -96,10 +96,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_GLFW_USE_CONFIG_H;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\include;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\deps\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\include;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\deps\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\include;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\deps\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\include;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\deps\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -112,7 +112,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\include;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\deps\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\include;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\deps\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsC</CompileAs>
       <ExceptionHandling>
@@ -130,10 +130,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_GLFW_USE_CONFIG_H;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\include;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\deps\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\include;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\deps\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\include;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\deps\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\include;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\deps\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -146,7 +146,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\include;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\deps\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\include;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\deps\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsC</CompileAs>
       <ExceptionHandling>
@@ -164,10 +164,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_GLFW_USE_CONFIG_H;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\include;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\deps\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\include;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\deps\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\include;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\deps\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\include;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\deps\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -180,7 +180,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\include;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\deps\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\include;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\deps\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsC</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -197,10 +197,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_GLFW_USE_CONFIG_H;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\include;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\deps\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\include;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\deps\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\include;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\deps\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\include;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src;D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\deps\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -212,10 +212,10 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/deps/glfw/src/CMakeLists.txt</Message>
+    <CustomBuild Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/deps/glfw/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet" "-BD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build" --check-stamp-file "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/deps/glfw/src/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c" "-BD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build" --check-stamp-file "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/deps/glfw/src/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -224,11 +224,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\deps\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\deps\glfw\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/deps/glfw/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/deps/glfw/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet" "-BD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build" --check-stamp-file "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/deps/glfw/src/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c" "-BD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build" --check-stamp-file "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/deps/glfw/src/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -237,11 +237,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\deps\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\deps\glfw\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/deps/glfw/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/deps/glfw/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet" "-BD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build" --check-stamp-file "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/deps/glfw/src/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c" "-BD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build" --check-stamp-file "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/deps/glfw/src/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -250,11 +250,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\deps\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\deps\glfw\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/deps/bov/deps/glfw/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/deps/bov/deps/glfw/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet" "-BD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build" --check-stamp-file "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/build/deps/bov/deps/glfw/src/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c" "-BD:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build" --check-stamp-file "D:/Uni/BAC2 3/LEPL1110 - Elements finis/Projet/motor.c/build/deps/bov/deps/glfw/src/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -263,40 +263,40 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\deps\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\deps\glfw\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src\context.c" />
-    <ClCompile Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src\init.c" />
-    <ClCompile Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src\input.c" />
-    <ClCompile Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src\monitor.c" />
-    <ClCompile Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src\vulkan.c" />
-    <ClCompile Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src\window.c" />
-    <ClCompile Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src\win32_init.c" />
-    <ClCompile Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src\win32_joystick.c" />
-    <ClCompile Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src\win32_monitor.c" />
-    <ClCompile Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src\win32_time.c" />
-    <ClCompile Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src\win32_thread.c" />
-    <ClCompile Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src\win32_window.c" />
-    <ClCompile Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src\wgl_context.c" />
-    <ClCompile Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src\egl_context.c" />
-    <ClCompile Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src\osmesa_context.c" />
-    <ClInclude Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src\internal.h" />
-    <ClInclude Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src\mappings.h" />
-    <ClInclude Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\deps\bov\deps\glfw\src\glfw_config.h" />
-    <ClInclude Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\include\GLFW\glfw3.h" />
-    <ClInclude Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\include\GLFW\glfw3native.h" />
-    <ClInclude Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src\win32_platform.h" />
-    <ClInclude Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src\win32_joystick.h" />
-    <ClInclude Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src\wgl_context.h" />
-    <ClInclude Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src\egl_context.h" />
-    <ClInclude Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\deps\bov\deps\glfw\src\osmesa_context.h" />
+    <ClCompile Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src\context.c" />
+    <ClCompile Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src\init.c" />
+    <ClCompile Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src\input.c" />
+    <ClCompile Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src\monitor.c" />
+    <ClCompile Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src\vulkan.c" />
+    <ClCompile Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src\window.c" />
+    <ClCompile Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src\win32_init.c" />
+    <ClCompile Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src\win32_joystick.c" />
+    <ClCompile Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src\win32_monitor.c" />
+    <ClCompile Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src\win32_time.c" />
+    <ClCompile Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src\win32_thread.c" />
+    <ClCompile Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src\win32_window.c" />
+    <ClCompile Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src\wgl_context.c" />
+    <ClCompile Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src\egl_context.c" />
+    <ClCompile Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src\osmesa_context.c" />
+    <ClInclude Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src\internal.h" />
+    <ClInclude Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src\mappings.h" />
+    <ClInclude Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\deps\bov\deps\glfw\src\glfw_config.h" />
+    <ClInclude Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\include\GLFW\glfw3.h" />
+    <ClInclude Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\include\GLFW\glfw3native.h" />
+    <ClInclude Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src\win32_platform.h" />
+    <ClInclude Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src\win32_joystick.h" />
+    <ClInclude Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src\wgl_context.h" />
+    <ClInclude Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src\egl_context.h" />
+    <ClInclude Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\deps\bov\deps\glfw\src\osmesa_context.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\build\ZERO_CHECK.vcxproj">
-      <Project>{9E93ACB0-99FC-31A6-BF77-D9F0F5AECC44}</Project>
+    <ProjectReference Include="D:\Uni\BAC2 3\LEPL1110 - Elements finis\Projet\motor.c\build\ZERO_CHECK.vcxproj">
+      <Project>{A17AD59A-245F-31ED-A56B-9B95286BF50A}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
