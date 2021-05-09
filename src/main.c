@@ -19,7 +19,7 @@
 
 int main(void)
 {  
-    motorMesh *theMotorMesh = motorMeshRead("../data/motor400.txt");
+    motorMesh *theMotorMesh = motorMeshRead("../data/motor14608.txt");
     motor *theMotor = motorCreate(theMotorMesh);
     motorPrintInfos(theMotor);
 
@@ -127,12 +127,15 @@ int main(void)
         if (theTime > theDiscreteTime) {
             theIteration += 1;
             theDiscreteTime += theTimeStep; 
+            int time = clock();
             motorComputeMagneticPotential(theMotor);
             double C = motorComputeCouple(theMotor);
             omega += C * theTimeStep / theMotor->inertia;
             theMotor->omega = omega;
             motorAdaptMesh(theMotor,omega*theTimeStep);
             motorComputeCurrent(theMotor);
+            time = clock() - time;
+            printf("elapsed time : %d\n",time);
             printf("Iteration  %2d - %.2f : %14.7e \n",theIteration,theDiscreteTime,theMotor->theta); }
          sprintf(theMessage,"Time = %.2f iteration = %d",theDiscreteTime,theIteration);
 

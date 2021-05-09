@@ -89,10 +89,16 @@ void motorAdaptMesh(motor* theMotor, double delta)
 						}
 					}
 				}
+			}if (elemDomain1 == 7 && elemDomain2 == 11) {
+				theMesh->elem[3 * starting + 0] = theEdges->edges[currEdge].node[0];
+				theMesh->elem[3 * starting + 2] = theEdges->edges[currEdge].node[1];
+				theMesh->elem[3 * starting + 1] = bestNode;
 			}
-			theMesh->elem[3 * starting + 2] = theEdges->edges[currEdge].node[0];
-			theMesh->elem[3 * starting] = theEdges->edges[currEdge].node[1];
-			theMesh->elem[3 * starting + 1] = bestNode;
+			else {
+				theMesh->elem[3 * starting + 2] = theEdges->edges[currEdge].node[0];
+				theMesh->elem[3 * starting + 0] = theEdges->edges[currEdge].node[1];
+				theMesh->elem[3 * starting + 1] = bestNode;
+			}
 			starting++;
 		}
 		// remaille la frontière avec le domaine rotor_gap avec le meilleur noeud sur la frontière avec le domaine stator_gap.
@@ -122,9 +128,16 @@ void motorAdaptMesh(motor* theMotor, double delta)
 					}
 				}
 			}
-			theMesh->elem[3 * starting] = theEdges->edges[currEdge].node[0];
-			theMesh->elem[3 * starting + 2] = theEdges->edges[currEdge].node[1];
-			theMesh->elem[3 * starting + 1] = bestNode;
+			if (elemDomain1 == 10 && elemDomain2 == 11) {
+				theMesh->elem[3 * starting + 0] = theEdges->edges[currEdge].node[0];
+				theMesh->elem[3 * starting + 2] = theEdges->edges[currEdge].node[1];
+				theMesh->elem[3 * starting + 1] = bestNode;
+			}
+			else {
+				theMesh->elem[3 * starting + 2] = theEdges->edges[currEdge].node[0];
+				theMesh->elem[3 * starting + 0] = theEdges->edges[currEdge].node[1];
+				theMesh->elem[3 * starting + 1] = bestNode;
+			}
 			starting++;
 		}
 	}
@@ -373,14 +386,169 @@ void motorComputeMagneticPotentialBasic(motor* theMotor)
 }
 
 /*******************************************************
+IMPORT ET EDITION FONCTION BAND
+Import des fonctions de fem.c qui permettent de creer un
+solveur Bande pour les adapter à mes besoins.
+********************************************************/
+
+femDiffusionProblem* femDiffusionCreateMotor(motor* theMotor, femSolverType solverType, femRenumType renumType)
+{
+	int i, band;
+
+	femDiffusionProblem* theProblem = malloc(sizeof(femDiffusionProblem));
+	femMesh* theMesh = malloc(sizeof(femMesh));
+	theProblem->mesh = theMesh;
+	theMesh->elem = theMotor->mesh->elem;
+	theMesh->X = theMotor->mesh->X;
+	theMesh->Y = theMotor->mesh->Y;
+	theMesh->nElem = theMotor->mesh->nElem;
+	theMesh->nNode = theMotor->mesh->nNode;
+	theMesh->nLocalNode = theMotor->mesh->nLocalNode;
+	theProblem->mesh->number = malloc(sizeof(int) * theProblem->mesh->nNode);
+	for (int i = 0; i < theProblem->mesh->nNode; i++) {
+		theProblem->mesh->number[i] = i;
+	}
+	if (theProblem->mesh->nLocalNode == 4) {
+		theProblem->space = femDiscreteCreate(4, FEM_QUAD);
+		theProblem->rule = femIntegrationCreate(4, FEM_QUAD);
+	}
+	else if (theProblem->mesh->nLocalNode == 3) {
+		theProblem->space = femDiscreteCreate(3, FEM_TRIANGLE);
+		theProblem->rule = femIntegrationCreate(3, FEM_TRIANGLE);
+	}
+	theProblem->size = theProblem->mesh->nNode;
+	theProblem->sizeLoc = theProblem->mesh->nLocalNode;
+	femMeshRenumber(theProblem->mesh, renumType);
+	theProblem->sourceValue = 1.0;
+	theProblem->dirichletValue = 1.0;
+
+
+	theProblem->dirichlet = malloc(sizeof(int) * theProblem->size);
+	for (i = 0; i < theProblem->size; i++)
+		theProblem->dirichlet[i] = 0;
+	femEdges* theEdges = femEdgesCreate(theProblem->mesh);
+	for (i = 0; i < theEdges->nEdge; i++) {
+		if (theEdges->edges[i].elem[1] < 0) {
+			theProblem->dirichlet[theEdges->edges[i].node[0]] = 1;
+			theProblem->dirichlet[theEdges->edges[i].node[1]] = 1;
+		}
+	}
+	femEdgesFree(theEdges);
+
+	switch (solverType) {
+	case FEM_FULL:
+		theProblem->solver = femSolverFullCreate(theProblem->size,
+			theProblem->sizeLoc); break;
+	case FEM_BAND:
+		band = femMeshComputeBand(theProblem->mesh);
+		theProblem->solver = femSolverBandCreate(theProblem->size,
+			theProblem->sizeLoc, band); break;
+	case FEM_ITER:
+		theProblem->solver = femSolverIterativeCreate(theProblem->size,
+			theProblem->sizeLoc); break;
+	default: Error("Unexpected solver option");
+	}
+
+	theProblem->soluce = malloc(sizeof(double) * theProblem->size);
+	for (i = 0; i < theProblem->size; i++)
+		theProblem->soluce[i] = 0;
+
+	return theProblem;
+}
+
+void femDiffusionFreeMotor(femDiffusionProblem* theProblem)
+{
+	femIntegrationFree(theProblem->rule);
+	femDiscreteFree(theProblem->space);
+	free(theProblem->mesh->number);
+	free(theProblem->mesh);
+	femSolverFree(theProblem->solver);
+	free(theProblem->dirichlet);
+	free(theProblem->soluce);
+	free(theProblem);
+}
+
+void femDiffusionComputeMotor(femDiffusionProblem* theProblem, motor* theMotor)
+{
+	femMesh* theMesh = theProblem->mesh;
+	femIntegration* theRule = theProblem->rule;
+	femDiscrete* theSpace = theProblem->space;
+	femSolver* theSolver = theProblem->solver;
+	int* number = theProblem->mesh->number;
+	double source = theProblem->sourceValue;
+	double dirichlet = theProblem->dirichletValue;
+
+	if (theSpace->n > 4) Error("Unexpected discrete space size !");
+	double Xloc[4], Yloc[4], phi[4], dphidxsi[4], dphideta[4], dphidx[4], dphidy[4];
+	double Uloc[4];
+	int iEdge, iElem, iInteg, i, j, map[4], ctr[4];
+	double** A = theSolver->local->A;
+	double* Aloc = theSolver->local->A[0];
+	double* Bloc = theSolver->local->B;
+
+	for (iElem = 0; iElem < theMesh->nElem; iElem++) {
+		for (i = 0; i < theSpace->n; i++)      Bloc[i] = 0;
+		for (i = 0; i < (theSpace->n) * (theSpace->n); i++) Aloc[i] = 0;
+		femDiffusionMeshLocal(theProblem, iElem, map, ctr, Xloc, Yloc, Uloc);
+		for (iInteg = 0; iInteg < theRule->n; iInteg++) {
+			double xsi = theRule->xsi[iInteg];
+			double eta = theRule->eta[iInteg];
+			double weight = theRule->weight[iInteg];
+			femDiscretePhi2(theSpace, xsi, eta, phi);
+			femDiscreteDphi2(theSpace, xsi, eta, dphidxsi, dphideta);
+			double dxdxsi = 0;
+			double dxdeta = 0;
+			double dydxsi = 0;
+			double dydeta = 0;
+			for (i = 0; i < theSpace->n; i++) {
+				dxdxsi += Xloc[i] * dphidxsi[i];
+				dxdeta += Xloc[i] * dphideta[i];
+				dydxsi += Yloc[i] * dphidxsi[i];
+				dydeta += Yloc[i] * dphideta[i];
+			}
+			double jac = dxdxsi * dydeta - dxdeta * dydxsi;
+			for (i = 0; i < theSpace->n; i++) {
+				dphidx[i] = (dphidxsi[i] * dydeta - dphideta[i] * dydxsi) / jac;
+				dphidy[i] = (dphideta[i] * dxdxsi - dphidxsi[i] * dxdeta) / jac;
+			}
+			for (i = 0; i < theSpace->n; i++) {
+				for (j = 0; j < theSpace->n; j++) {
+					A[i][j] += (dphidx[i] * dphidx[j]
+						+ dphidy[i] * dphidy[j]) * jac * weight / theMotor->mu[theMotor->mesh->domain[iElem]];
+				}
+			}
+			for (i = 0; i < theSpace->n; i++) {
+				Bloc[i] += phi[i] * jac * source * weight * theMotor->js[theMotor->mesh->domain[iElem]];
+			}
+		}
+		for (i = 0; i < theSpace->n; i++)
+			if (ctr[i] == 1) femFullSystemConstrain(theSolver->local, i, 0);
+		femSolverAssemble(theSolver, Aloc, Bloc, Uloc, map, theSpace->n);
+	}
+
+	double* soluce = femSolverEliminate(theSolver);
+	for (i = 0; i < theProblem->size; i++)
+		theProblem->soluce[i] += soluce[number[i]];
+}
+
+/*******************************************************
+FIN IMPORT ET EDITION FONCTION BAND
+********************************************************/
+
+/*******************************************************
 Résoud l'équation de Poisson pour le moteur theMotor, et
 place le résultat dans theMotor->a. Il s'agit de la
 version en solver Bande.
 ********************************************************/
 void motorComputeMagneticPotentialBand(motor* theMotor)
 {
-	//to implement yet, calls the basic to avoid having the wrong value
-	motorComputeMagneticPotentialBasic(theMotor);
+	femSolverType solverType = FEM_BAND;
+	femRenumType  renumType = FEM_YNUM;
+	femDiffusionProblem* myProblem = femDiffusionCreateMotor(theMotor, solverType, renumType);
+	femDiffusionComputeMotor(myProblem, theMotor);
+	memcpy(theMotor->a, myProblem->soluce, sizeof(double) * theMotor->mesh->nNode);
+	// Libération de la mémoire
+	femDiffusionFreeMotor(myProblem);
 	return;
 }
 
@@ -391,7 +559,7 @@ la version de son choix Basic ou Band.
 ********************************************************/
 void motorComputeMagneticPotential(motor* theMotor)
 {
-	motorComputeMagneticPotentialBasic(theMotor);
+	motorComputeMagneticPotentialBand(theMotor);
 	return;
 }
 
