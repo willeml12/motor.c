@@ -260,24 +260,27 @@ double motorComputeCouple(motor* theMotor)
 
 void motorComputeCurrent(motor* theMotor)
 {
+	for (int i = 1; i < 7; i++) {
+		theMotor->js[i] = 0;
+	}
 	double js = 8.8464 * 1e5;
 	double pi = 3.14159265358979323846;
-	double theta = fmod(theMotor->theta, pi / 2.0);
+	double theta = fmod(fabs(theMotor->theta), pi / 2.0);
 	if (theta < 0.39) {
-		theMotor->js[5] = js;
-		theMotor->js[6] = -js;
+		theMotor->js[3] = js;
+		theMotor->js[4] = -js;
 	}
 	else if (theta < 0.94) {
 		theMotor->js[1] = js;
 		theMotor->js[2] = -js;
 	}
 	else if (theta < 1.44) {
-		theMotor->js[3] = js;
-		theMotor->js[4] = -js;
-	}
-	else {
 		theMotor->js[5] = js;
 		theMotor->js[6] = -js;
+	}
+	else {
+		theMotor->js[3] = js;
+		theMotor->js[4] = -js;
 	}
 	return;
 }
@@ -558,7 +561,7 @@ Résoud l'équation de Poisson pour le moteur theMotor, et
 place le résultat dans theMotor->a. Il s'agit de la
 version en solver Bande.
 ********************************************************/
-void motorComputeMagneticPotentialBand(motor* theMotor)
+void motorComputeMagneticPotentialFem(motor* theMotor)
 {
 	femSolverType solverType = FEM_BAND;
 	femRenumType  renumType = FEM_YNUM;
@@ -577,7 +580,7 @@ la version de son choix Basic ou Band.
 ********************************************************/
 void motorComputeMagneticPotential(motor* theMotor)
 {
-	motorComputeMagneticPotentialBand(theMotor);
+	motorComputeMagneticPotentialFem(theMotor);
 	return;
 }
 
