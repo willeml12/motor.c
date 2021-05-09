@@ -255,12 +255,30 @@ double motorComputeCouple(motor* theMotor)
 	double coef = -theMotor->L;
 	coef = coef / (4 * 3.141592653589793 * 1e-7);
 	coef = coef / d;
-	printf("Valeur couple %f\n", coef * C);
 	return coef * C;
 }
 
 void motorComputeCurrent(motor* theMotor)
 {
+	double js = 8.8464 * 1e5;
+	double pi = 3.14159265358979323846;
+	double theta = fmod(theMotor->theta, pi / 2.0);
+	if (theta < 0.39) {
+		theMotor->js[5] = js;
+		theMotor->js[6] = -js;
+	}
+	else if (theta < 0.94) {
+		theMotor->js[1] = js;
+		theMotor->js[2] = -js;
+	}
+	else if (theta < 1.44) {
+		theMotor->js[3] = js;
+		theMotor->js[4] = -js;
+	}
+	else {
+		theMotor->js[5] = js;
+		theMotor->js[6] = -js;
+	}
 	return;
 }
 

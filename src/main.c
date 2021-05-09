@@ -19,7 +19,7 @@
 
 int main(void)
 {  
-    motorMesh *theMotorMesh = motorMeshRead("../data/motor14608.txt");
+    motorMesh *theMotorMesh = motorMeshRead("../data/motor4424.txt");
     motor *theMotor = motorCreate(theMotorMesh);
     motorPrintInfos(theMotor);
 
@@ -47,7 +47,7 @@ int main(void)
     double 	theDiscreteTime = 0.0;
     double 	theStartingTime = 0.0;
     double  theTimeStep  = 0.1;
-    double  theStop = 0.1;
+    double  theStop = 0.0;
     double  omega = 1.0;
     int     thePlotMode = 1;
     int 	  theIteration = 0;
@@ -135,9 +135,10 @@ int main(void)
             motorAdaptMesh(theMotor,omega*theTimeStep);
             motorComputeCurrent(theMotor);
             time = clock() - time;
-            printf("elapsed time : %d\n",time);
-            printf("Iteration  %2d - %.2f : %14.7e \n",theIteration,theDiscreteTime,theMotor->theta); }
-         sprintf(theMessage,"Time = %.2f iteration = %d",theDiscreteTime,theIteration);
+           // printf("elapsed time : %d\n",time);
+           // printf("Iteration  %2d - %.2f : %14.7e \n",theIteration,theDiscreteTime,theMotor->theta); 
+           }
+        // sprintf(theMessage,"Time = %.2f iteration = %d",theDiscreteTime,theIteration);
 
 
          sprintf(theMessage, "Entrefer ");
