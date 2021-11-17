@@ -1,10 +1,10 @@
 # Simulation d'un moteur à reluctance variable par la méthode des éléments finis
  
 ## Table de matière
-* [Compilation](compilation)
-* [Exécution](exécution)
-* [Bibliographie](bibliographie)
-* [Auteur](auteur)
+* [Compilation](#compilation)
+* [Exécution](#exécution)
+* [Bibliographie](#bibliographie)
+* [Auteur](#auteur)
 ## Compilation
 ## Exécution
 ## Bibliographie
