@@ -1,5 +1,5 @@
 # Simulation d'un moteur à reluctance variable par la méthode des éléments finis
-Dans le cadre du cours [LEPL1110 - Eléments finis](https://sites.uclouvain.be/archives-portail/cdc2020/cours-2020-lepl1110), les étudiants ont implémenté un programme permettant de simuler un moteur à reluctance variable réprésenté par un maillage (encrypté sous format .txt) via la méthode des éléments finis. Ceci est le version fonctionnelle et partiellement optimisée rendue par Laureline Willem.
+Dans le cadre du cours [LEPL1110 - Eléments finis](https://sites.uclouvain.be/archives-portail/cdc2020/cours-2020-lepl1110), les étudiants ont implémenté un programme permettant de simuler un moteur à reluctance variable réprésenté par un maillage (encrypté sous format .txt) via la méthode des éléments finis. Ceci est la version fonctionnelle et partiellement optimisée rendue par Laureline Willem.
 ## Table de matière
 * [Environnement](#environnement)
 * [Compilation](#compilation)
