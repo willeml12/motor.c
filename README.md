@@ -1,8 +1,12 @@
 # Simulation d'un moteur à reluctance variable par la méthode des éléments finis
  
 ## Table de matière
+* [Compilation](compilation)
+* [Exécution](exécution)
 * [Bibliographie](bibliographie)
 * [Auteur](auteur)
+## Compilation
+## Exécution
 ## Bibliographie
 * Canevas du projet fourni par l'équipe enseignante LEPL1110
 * Syllabus du cours LEPL1110 par Vincent Legat et Jean-François Remacle, édition 2020
