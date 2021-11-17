@@ -1,6 +1,7 @@
 # Simulation d'un moteur à reluctance variable par la méthode des éléments finis
 Dans le cadre du cours [LEPL1110 - Eléments finis](https://sites.uclouvain.be/archives-portail/cdc2020/cours-2020-lepl1110), les étudiants ont implémenté un programme permettant de simuler un moteur à reluctance variable réprésenté par un maillage (encrypté sous format .txt) via la méthode des éléments finis. Ceci est la version fonctionnelle et partiellement optimisée rendue par Laureline Willem.
 ## Table de matière
+* [Répertoire et fichier](#répertoire-et-fichier)
 * [Environnement](#environnement)
 * [Compilation](#compilation)
 * [Exécution](#exécution)
@@ -10,7 +11,7 @@ Dans le cadre du cours [LEPL1110 - Eléments finis](https://sites.uclouvain.be/a
 *  /build contient le dernier build [Visual Studio](https://visualstudio.microsoft.com/fr/).
 *  /deps contient la librairie Basic OpenGL Viewer appartenant à Célestin Marot, sous license zlib, nécessaire à l'éxécution de l'interface graphique.
 *  /data contient les données fournies en exemple. C'est dans ce dossier que sera ajouté les données de l'utilisateur le cas échant.
-*  /src contient le code source
+*  /src contient le code source.
 *  CMakeLists.txt permet de genérer un projet avec CMake.
 *  README.md, ce fichier.
 *  motor.pdf vise à expliquer différents choix d'implémentation et décrire les tests réalisés afin de valider le code et déterminer l'ordre de précision des calculs.
