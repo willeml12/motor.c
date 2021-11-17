@@ -9,8 +9,10 @@
 ## Environnement
 Le code n'a été testé que sous Windows 10 et Ubuntu, aucun garantie ne peut donc être fourni si un utilisateur souhaite l'utiliser sur un autre OS.
 ## Compilation
-Le code peut être compilé via l'usage des outils [Visual Studio](https://visualstudio.microsoft.com/fr/) et [CMake](https://cmake.org/). Il faut alors suivre les consignes d'utilisation sur CMake dans le dossier d'installation souhaite avec pour cible CMakeList.txt et le dossier build.
+Le code peut être compilé via l'usage des outils [Visual Studio](https://visualstudio.microsoft.com/fr/) et [CMake](https://cmake.org/). Il faut alors suivre les consignes d'utilisation sur CMake dans le dossier d'installation souhaite avec pour cible CMakeList.txt et un dossier build créé au préalable par l'utilisateur.
 ## Exécution
+Les données, rédigée au format attendu par la fonction 
+Il faudrait alors remplacer le chemins vers les données à la ligne 22 du fichier /src/main.c, l'utilisateur pourra alors exécuter le programme dans visual studio pour obtenir une simulation du moteur donnée en entrée.
 ## Bibliographie
 * Canevas du projet fourni par l'équipe enseignante LEPL1110
 * Syllabus du cours LEPL1110 par Vincent Legat et Jean-François Remacle, édition 2020
