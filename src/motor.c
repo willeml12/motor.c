@@ -5,13 +5,13 @@
 #include"fem.h"
 
 /*******************************************************
-Code : motor.c contient les fonctions à réaliser dans le
-	cadre du projet d'élément fini 2020-2021 ainsi que
-	les sous-fonctions liée.
-Auteur : Laureline Willem, 21381700, basé sur le canevas
-	fourni par l'équipe LEPL1110 et les devoirs réalisé
-	précédements.
-Date : 13/05/2021
+Code : motor.c contient les fonctions a realiser dans le
+	cadre du projet d'element fini 2020-2021 ainsi que
+	les sous-fonctions liee.
+Auteur : Laureline Willem, 21381700, base sur le canevas
+	fourni par l'equipe LEPL1110 et les devoirs realise
+	precedements.
+Date : 16/08/2021
 ********************************************************/
 
 // VARIABLE GLOBALE.
@@ -36,7 +36,13 @@ l'entrefer pour garder des triangles optimaux.
 ********************************************************/
 void motorAdaptMesh(motor* theMotor, double delta)
 {
-	motorMesh* theMesh = theMotor->mesh;
+	femMesh* theMesh = malloc(sizeof(femMesh));
+	theMesh->elem = theMotor->mesh->elem;
+	theMesh->X = theMotor->mesh->X;
+	theMesh->Y = theMotor->mesh->Y;
+	theMesh->nElem = theMotor->mesh->nElem;
+	theMesh->nNode = theMotor->mesh->nNode;
+	theMesh->nLocalNode = theMotor->mesh->nLocalNode;
 
 	// Rotation
 	double x, y;
@@ -52,18 +58,21 @@ void motorAdaptMesh(motor* theMotor, double delta)
 
 	// Remaillage
 
-	// Création d'une structure edges pour pouvoir cibler les arêtes qui nous intéresse.
+	// Creation d'une structure edges pour pouvoir cibler les arretes qui nous interesse.
 	femEdges* theEdges = femEdgesCreate((femMesh*)theMesh);
 	int starting = 0;
 	for (int i = 0; i < 11; i++) {
-		starting += theMesh->nElemDomain[i];
+		starting += theMotor->mesh->nElemDomain[i];
 	}
 	for (int currEdge = 0; currEdge < theEdges->nEdge; currEdge++) {
 		int elem1 = theEdges->edges[currEdge].elem[0];
 		int elem2 = theEdges->edges[currEdge].elem[1];
 		int elemDomain1 = theMotor->mesh->domain[elem1];
-		int elemDomain2 = theMotor->mesh->domain[elem2];
-		// remaille la frontière avec le domaine stator_gap avec le meilleur noeud sur la frontière avec le domaine rotor_gap.
+		int elemDomain2 = 0;
+		if (elem2 != -1) {
+			elemDomain2 = theMotor->mesh->domain[elem2];
+		}
+		// remaille la frontiere avec le domaine stator_gap avec le meilleur noeud sur la frontiere avec le domaine rotor_gap.
 		if ((elemDomain1 == 7 && elemDomain2 == 11) || (elemDomain1 == 11 && elemDomain2 == 7)) {
 			double bestMedian = 99999;
 			int bestNode;
@@ -71,7 +80,10 @@ void motorAdaptMesh(motor* theMotor, double delta)
 				int elem3 = theEdges->edges[currEdgebis].elem[0];
 				int elem4 = theEdges->edges[currEdgebis].elem[1];
 				int elemDomain3 = theMotor->mesh->domain[elem3];
-				int elemDomain4 = theMotor->mesh->domain[elem4];
+				int elemDomain4 = 0;
+				if (elem4 != -1) {
+					elemDomain4 = theMotor->mesh->domain[elem4];
+				}
 				if ((elemDomain3 == 10 && elemDomain4 == 11) || (elemDomain3 == 11 && elemDomain4 == 10)) {
 					double x[2];
 					x[0] = theMesh->X[theEdges->edges[currEdge].node[0]];
@@ -101,7 +113,7 @@ void motorAdaptMesh(motor* theMotor, double delta)
 			}
 			starting++;
 		}
-		// remaille la frontière avec le domaine rotor_gap avec le meilleur noeud sur la frontière avec le domaine stator_gap.
+		// remaille la frontiere avec le domaine rotor_gap avec le meilleur noeud sur la frontiere avec le domaine stator_gap.
 		if ((elemDomain1 == 10 && elemDomain2 == 11) || (elemDomain1 == 11 && elemDomain2 == 10)) {
 			double bestMedian = 99999;
 			int bestNode;
@@ -109,7 +121,10 @@ void motorAdaptMesh(motor* theMotor, double delta)
 				int elem3 = theEdges->edges[currEdgebis].elem[0];
 				int elem4 = theEdges->edges[currEdgebis].elem[1];
 				int elemDomain3 = theMotor->mesh->domain[elem3];
-				int elemDomain4 = theMotor->mesh->domain[elem4];
+				int elemDomain4 = 0;
+				if (elem4 != -1) {
+					elemDomain4 = theMotor->mesh->domain[elem4];
+				}
 				if ((elemDomain3 == 7 && elemDomain4 == 11) || (elemDomain3 == 11 && elemDomain4 == 7)) {
 					double x[2];
 					x[0] = theMesh->X[theEdges->edges[currEdge].node[0]];
@@ -142,8 +157,9 @@ void motorAdaptMesh(motor* theMotor, double delta)
 		}
 	}
 
-	// Libération de la mémoire
+	// Liberation de la memoire
 	femEdgesFree(theEdges);
+	free(theMesh);
 }
 
 /*******************************************************
@@ -200,7 +216,7 @@ double motorComputeCouple(motor* theMotor)
 	}
 	d = rmax - rmin;
 
-	// Edité depuis le devoir 4.
+	// Edite depuis le devoir 4.
 
 	for (int elem = starting; elem < starting + mesh->nElemDomain[10]; elem++) {
 		femMeshLocal(theMotor->mesh, elem, map, x, y);
@@ -246,10 +262,7 @@ double motorComputeCouple(motor* theMotor)
 				dadr += theMotor->a[map[i]] * (dphidr[i]);
 				dadtheta += theMotor->a[map[i]] * (dphidtheta[i]);
 			}
-			double J2 = (x[1] - x[0]) * (y[2] - y[0]) - (x[2] - x[0]) * (y[1] - y[0]);
-			J2 = fabs(J2);
-			C += weight * dadr * dadtheta * J2;
-
+			C += weight * dadr * dadtheta * J;
 		}
 	}
 	double coef = -theMotor->L;
@@ -258,6 +271,10 @@ double motorComputeCouple(motor* theMotor)
 	return coef * C;
 }
 
+/*******************************************************
+Dztermine quelle bobine allumer pour optimiser le couple
+du moteur.
+********************************************************/
 void motorComputeCurrent(motor* theMotor)
 {
 	for (int i = 1; i < 7; i++) {
@@ -266,15 +283,16 @@ void motorComputeCurrent(motor* theMotor)
 	double js = 8.8464 * 1e5;
 	double pi = 3.14159265358979323846;
 	double theta = fmod(fabs(theMotor->theta), pi / 2.0);
-	if (theta < 0.39) {
+
+	if (theta < 0.32) {
 		theMotor->js[3] = js;
 		theMotor->js[4] = -js;
 	}
-	else if (theta < 0.94) {
+	else if (theta < 0.82) {
 		theMotor->js[1] = js;
 		theMotor->js[2] = -js;
 	}
-	else if (theta < 1.44) {
+	else if (theta < 1.35) {
 		theMotor->js[5] = js;
 		theMotor->js[6] = -js;
 	}
@@ -287,13 +305,13 @@ void motorComputeCurrent(motor* theMotor)
 
 /*******************************************************
 IMPORT ET EDITION DEVOIR 4
-Import des fonctions du devoir 4 qui résoud l'équation
-de Poisson. Des portions du code sont donc rédigée par
-l'équipe didactique.
-De petit édition on été réalisée pour pouvoir appliquer
-celui-ci à la nouvelle structure.
+Import des fonctions du devoir 4 qui resoud l'equation
+de Poisson. Des portions du code sont donc redigee par
+l'equipe didactique.
+De petit edition on ete realisee pour pouvoir appliquer
+celui-ci a la nouvelle structure.
 Ce fragment de code sert de base au calcul du potentiel
-magnetique.
+magnetique motorComputeMagneticPotentialBasic.
 ********************************************************/
 
 typedef struct {
@@ -392,16 +410,16 @@ FIN IMPORT ET EDITION DEVOIR 4
 ********************************************************/
 
 /*******************************************************
-Résoud l'équation de Poisson pour le moteur theMotor, et
-place le résultat dans theMotor->a. Il s'agit de la
-version basique par solveur linéaire.
+Resoud l'zquation de Poisson pour le moteur theMotor, et
+place le resultat dans theMotor->a. Il s'agit de la
+version basique par solveur lineaire.
 ********************************************************/
 void motorComputeMagneticPotentialBasic(motor* theMotor)
 {
 	femPoissonProblem* myProblem = femPoissonCreate(theMotor);
 	femPoissonSolve(myProblem, theMotor);
 	memcpy(theMotor->a, myProblem->system->B, sizeof(double) * theMotor->mesh->nNode);
-	// Libération de la mémoire
+	// Liberation de la memoire
 	femPoissonFree(myProblem);
 	return;
 }
@@ -409,7 +427,12 @@ void motorComputeMagneticPotentialBasic(motor* theMotor)
 /*******************************************************
 IMPORT ET EDITION FONCTION BAND
 Import des fonctions de fem.c qui permettent de creer un
-solveur Bande pour les adapter à mes besoins.
+solveur Bande.  Des portions du code sont donc redigee par
+l'equipe didactique.
+De petit edition on ete realisee pour pouvoir appliquer
+celui-ci a la nouvelle structure.
+Ce fragment de code sert de base au calcul du potentiel
+magnetique motorComputeMagneticPotentialFem.
 ********************************************************/
 
 femDiffusionProblem* femDiffusionCreateMotor(motor* theMotor, femSolverType solverType, femRenumType renumType)
@@ -557,9 +580,10 @@ FIN IMPORT ET EDITION FONCTION BAND
 ********************************************************/
 
 /*******************************************************
-Résoud l'équation de Poisson pour le moteur theMotor, et
-place le résultat dans theMotor->a. Il s'agit de la
-version en solver Bande.
+Resoud l'equation de Poisson pour le moteur theMotor, et
+place le resultat dans theMotor->a. Il s'agit de la
+version en solver Bande avec renumerotation selon la
+coordonnee Y.
 ********************************************************/
 void motorComputeMagneticPotentialFem(motor* theMotor)
 {
@@ -568,15 +592,15 @@ void motorComputeMagneticPotentialFem(motor* theMotor)
 	femDiffusionProblem* myProblem = femDiffusionCreateMotor(theMotor, solverType, renumType);
 	femDiffusionComputeMotor(myProblem, theMotor);
 	memcpy(theMotor->a, myProblem->soluce, sizeof(double) * theMotor->mesh->nNode);
-	// Libération de la mémoire
+	// Liberation de la memoire
 	femDiffusionFreeMotor(myProblem);
 	return;
 }
 
 /*******************************************************
-Résoud l'équation de Poisson pour le moteur theMotor, et
-place le résultat dans theMotor->a. On peut ici invoquer
-la version de son choix Basic ou Band.
+Resoud l'equation de Poisson pour le moteur theMotor, et
+place le resultat dans theMotor->a. On peut ici appeler
+la version de son choix Basic ou Fem (solveur Bande).
 ********************************************************/
 void motorComputeMagneticPotential(motor* theMotor)
 {
@@ -585,9 +609,16 @@ void motorComputeMagneticPotential(motor* theMotor)
 }
 
 /*******************************************************
-Libère la mémoire partagée par toute les itérations &
-fonctions à la fin de la main.
+Libere la memoire partagee par toute les iterations &
+fonctions a la fin de la main.
 ********************************************************/
 void motorFree(motor* theMotor) {
-	femDiscreteFree(theGlobalSpace);
+	if (theGlobalSpace != NULL) {
+		femDiscreteFree(theGlobalSpace);
+	}
+	free(theMotor->a);
+	free(theMotor->movingNodes);
+	free(theMotor->js);
+	free(theMotor->mu);
+	free(theMotor);
 }

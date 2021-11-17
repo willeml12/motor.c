@@ -19,7 +19,7 @@
 
 int main(void)
 {  
-    motorMesh *theMotorMesh = motorMeshRead("../data/motor838.txt");
+    motorMesh *theMotorMesh = motorMeshRead("../data/motor400.txt");
     motor *theMotor = motorCreate(theMotorMesh);
     motorPrintInfos(theMotor);
 
@@ -46,8 +46,8 @@ int main(void)
 
     double 	theDiscreteTime = 0.0;
     double 	theStartingTime = 0.0;
-    double  theTimeStep  = 0.1;
-    double  theStop = 0.0;
+    double  theTimeStep  = 0.01;
+    double  theStop = 10.0;
     double  omega = 1.0;
     int     thePlotMode = 1;
     int 	  theIteration = 0;
@@ -130,8 +130,10 @@ int main(void)
             int time = clock();
             motorComputeMagneticPotential(theMotor);
             double C = motorComputeCouple(theMotor);
+            printf("%f\t%f\t%f\n", C, omega, theMotor->theta);
             omega += C * theTimeStep / theMotor->inertia;
             theMotor->omega = omega;
+            //printf("%f, ", theMotor->theta);
             motorAdaptMesh(theMotor,omega*theTimeStep);
             motorComputeCurrent(theMotor);
             time = clock() - time;
@@ -146,7 +148,7 @@ int main(void)
         
     } while(!glfemWindowShouldClose());
     
-    motorFree();
+    motorFree(theMotor);
     
     exit(EXIT_SUCCESS);
     return 0;
