@@ -22,8 +22,8 @@ Le code peut être compilé via l'usage des outils [Visual Studio](https://visua
 Les données, rédigée au format attendu par la fonction motorMesh \*motorMeshRead(const char \*filename) disponible à la ligne 277 du fichier /src/main.c.
 Il faudrait alors remplacer le chemins vers les données à la ligne 22 du même fichier, l'utilisateur pourra alors exécuter le programme (par exemple via l'outils prévu à cet effet de [Visual Studio](https://visualstudio.microsoft.com/fr/)) pour obtenir une simulation du moteur donné en entrée.
 ## Bibliographie
-* Canevas du projet fourni par l'équipe enseignante LEPL1110
 * [Basic OpenGL Viewer](https://git.immc.ucl.ac.be/marotc/anm/-/tree/master/deps/BOV)
+* Canevas du projet fourni par l'équipe enseignante LEPL1110
 * Syllabus du cours LEPL1110 par Vincent Legat et Jean-François Remacle, édition 2020
 * [Valgrind](https://valgrind.org/)
 ## Auteur
