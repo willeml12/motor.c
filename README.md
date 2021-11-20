@@ -21,7 +21,7 @@ Le code n'a été testé que sous Windows 10 et Ubuntu, aucun garantie ne peut d
 Le code peut être compilé via l'usage des outils [Visual Studio](https://visualstudio.microsoft.com/fr/) et [CMake](https://cmake.org/). Il faut alors suivre les consignes d'utilisation sur CMake dans le dossier d'installation souhaite avec pour cible CMakeList.txt et le dossier build. Il est nécessaire de supprimer tout les fichier contenu dans build au préalable pour utiliser cette méthode. Ce n'est cependant pas l'unique solution, tout import du projet dans [Visual Studio](https://visualstudio.microsoft.com/fr/) ou compilation en ligne de commande fonctionnera également.
 ## Exécution
 Les données, rédigée au format attendu par la fonction motorMesh \*motorMeshRead(const char \*filename) disponible à la ligne 277 du fichier /src/main.c.
-Il faudrait alors remplacer le chemins vers les données à la ligne 22 du même fichier, l'utilisateur pourra alors exécuter le programme (par exemple via l'outils prévu à cet effet de [Visual Studio](https://visualstudio.microsoft.com/fr/)) pour obtenir une simulation du moteur donné en entrée.
+Il faudrait alors remplacer le chemins vers les données à la ligne 22 du même fichier (il serait recommander de placer le fichier dans le répartoire /data), l'utilisateur pourra alors exécuter le programme (par exemple via l'outils prévu à cet effet de [Visual Studio](https://visualstudio.microsoft.com/fr/)) pour obtenir une simulation du moteur donné en entrée.
 ## Bibliographie
 * [Basic OpenGL Viewer](https://git.immc.ucl.ac.be/marotc/anm/-/tree/master/deps/BOV)
 * Canevas du projet fourni par l'équipe enseignante LEPL1110
