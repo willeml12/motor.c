@@ -22,10 +22,10 @@ Le code peut être compilé via l'usage des outils [Visual Studio](https://visua
 ## Exécution
 Les données, rédigée au format attendu par la fonction motorMesh \*motorMeshRead(const char \*filename) disponible à la ligne 277 du fichier /src/main.c.
 Il faudrait alors remplacer le chemins vers les données à la ligne 22 du même fichier (il serait recommander de placer le fichier dans le répartoire /data), l'utilisateur pourra alors exécuter le programme (par exemple via l'outils prévu à cet effet de [Visual Studio](https://visualstudio.microsoft.com/fr/)) pour obtenir une simulation du moteur donné en entrée.
-## Bibliographie
+## Dépendence
 * [Basic OpenGL Viewer](https://git.immc.ucl.ac.be/marotc/anm/-/tree/master/deps/BOV)
 * Canevas du projet fourni par l'équipe enseignante LEPL1110
-* Syllabus du cours LEPL1110 par Vincent Legat et Jean-François Remacle, édition 2020
-* [Valgrind](https://valgrind.org/)
+## Bibliographie
+* Supports du cours LEPL1110 par Vincent Legat et Jean-François Remacle, édition 2020
 ## Auteur
 Ce programme de simulation d'un moteur à reluctance variable par la méthode des éléments finis à été réaliser par Laureline Willem dans le cadre de l'unité [LEPL1110 - Eléments finis](https://sites.uclouvain.be/archives-portail/cdc2020/cours-2020-lepl1110) comme projet de fin d'année pendant l'année académique 2020-2021.
