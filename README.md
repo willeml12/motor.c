@@ -12,7 +12,7 @@ Dans le cadre du cours [LEPL1110 - Eléments finis](https://sites.uclouvain.be/a
 *  /build contient le dernier build [Visual Studio](https://visualstudio.microsoft.com/fr/).
 *  /deps contient la librairie Basic OpenGL Viewer appartenant à Célestin Marot, sous license zlib, nécessaire à l'éxécution de l'interface graphique.
 *  /data contient les données fournies en exemple. C'est dans ce dossier que sera ajouté les données de l'utilisateur le cas échant.
-*  /src contient le code source.
+*  /src contient le code source. motor.c a été implémenté par Laureline Willem, les autres fichiers par l'équipe didactique.
 *  CMakeLists.txt permet de genérer un projet avec CMake.
 *  README.md, ce fichier.
 *  motor.pdf vise à expliquer différents choix d'implémentation et décrire les tests réalisés afin de valider le code et déterminer l'ordre de précision des calculs.
